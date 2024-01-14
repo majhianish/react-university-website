@@ -2,71 +2,22 @@ import React from 'react';
 import './Event.css';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
-import Event1Img from '../../utils/images/blog1-img.jpg';
-import Event2Img from '../../utils/images/blog2-img.jpg';
-// import Event3Img from '../../utils/images/blog3-img.jpg';
-// import Event4Img from '../../utils/images/blog4-img.jpg';
-// import Event5Img from '../../utils/images/blog5-img.jpg';
-// import Event6Img from '../../utils/images/blog6-img.jpg';
-// import Event7Img from '../../utils/images/blog7-img.jpg';
-// import Event8Img from '../../utils/images/blog8-img.jpg';
-// import Event9Img from '../../utils/images/blog9-img.jpg';
+import Event1Img from '../../utils/images/past-event1-img.jpeg';
 
 const events = [
     {
         id: 1,
         img: [Event1Img],
-        title: 'Novel Reflection-less Bridged-T Bandstop Filter',
-        description: 'An enthralling discourse on recent developments in Novel Reflection-less Bridged-T Bandstop Filter by retired Professor Shankar Chavan Bose on the occasion of Golden Jubilee Celebration of our Department.'
-    },
-    {
-        id: 2,
-        img: [Event2Img],
-        title: 'Semiconductors: A Brief History',
-        description: 'A reflection on the past and the development of semiconductors by Professor S. Ashok, Pennsylvania State University on the occasion of Golden Jubilee Celebration of our Department.'
+        title: 'Learning Based Intelligent Imaging and Beyond',
+        description: 'An enthralling discourse on Learning Based Intelligent Imaging and Beyond by Dr. Srutarshi Banerjee, Postdoctoral Researcher at Argonne National Laboratory.'
     },
     // {
-    //     id: 3,
-    //     img: [Event3Img],
-    //     title: 'Event 3',
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
+    //     id: 2,
+    //     img: [Event2Img],
+    //     title: 'Semiconductors: A Brief History',
+    //     description: 'A reflection on the past and the development of semiconductors by Professor S. Ashok, Pennsylvania State University on the occasion of Golden Jubilee Celebration of our Department.'
     // },
-    // {
-    //     id: 4,
-    //     img: [Event4Img],
-    //     title: 'Event 4',
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    // },
-    // {
-    //     id: 5,
-    //     img: [Event5Img],
-    //     title: 'Event 5',
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    // },
-    // {
-    //     id: 6,
-    //     img: [Event6Img],
-    //     title: 'Event 6',
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    // },
-    // {
-    //     id: 7,
-    //     img: [Event7Img],
-    //     title: 'Event 7',
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    // },
-    // {
-    //     id: 8,
-    //     img: [Event8Img],
-    //     title: 'Event 8',
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    // },
-    // {
-    //     id: 9,
-    //     img: [Event9Img],
-    //     title: 'Event 9',
-    //     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    // },
+    
 ];
 
 function Event() {
