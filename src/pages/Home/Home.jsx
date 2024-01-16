@@ -47,7 +47,7 @@ function Home() {
                         <p>Time : 18th January, 4:15pm</p>
                         <p>Speaker : Prof. Ajoy Kumar Ray, Former Director of IIEST, Shibpur</p>
                         <Link to="https://forms.gle/EJhT4YeN8iyryXTk9" target="_blank">
-                            <button type='button' className='btn btn-primary btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button>
+                            <button type='button' className='btn btn-primary btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Register here</button>
                         </Link>
                     </div>
                     <div className='col-lg-5 mt-5 mt-lg-0'>
