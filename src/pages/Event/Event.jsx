@@ -3,6 +3,7 @@ import './Event.css';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import Event1Img from '../../utils/images/past-event1-img.jpeg';
+import Event2Img from '../../utils/images/past-event2-img.jpeg';
 
 const events = [
     {
@@ -11,12 +12,12 @@ const events = [
         title: 'Learning Based Intelligent Imaging and Beyond',
         description: 'An enthralling discourse on Learning Based Intelligent Imaging and Beyond by Dr. Srutarshi Banerjee, Postdoctoral Researcher at Argonne National Laboratory.'
     },
-    // {
-    //     id: 2,
-    //     img: [Event2Img],
-    //     title: 'Semiconductors: A Brief History',
-    //     description: 'A reflection on the past and the development of semiconductors by Professor S. Ashok, Pennsylvania State University on the occasion of Golden Jubilee Celebration of our Department.'
-    // },
+    {
+        id: 2,
+        img: [Event2Img],
+        title: 'Electronics in the age of Data Science',
+        description: 'A reflection on the latest developments in Machine Learning and AI along with advancement in Computing by Professor Ajoy Kumar Ray, Padma Shree, Former Director of IIEST.'
+    },
     
 ];
 
@@ -35,7 +36,7 @@ function Event() {
             <div className='bg-body-tertiary py-5'>
                 <div className="container">
                     <div className="row g-4">
-                        {events.map((event) => (
+                        {events.reverse().map((event) => (
                             <div key={event.id} className='col-md-6 col-lg-4'>
                                 <Link to="/event" className='text-decoration-none'>
                                     <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'>
