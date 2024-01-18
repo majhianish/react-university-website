@@ -1,10 +1,10 @@
-import React, {Suspense} from 'react';
+import React, {Suspense,useEffect } from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import UpcomingEventImg from '../../utils/images/upcoming-event-img.jpeg';
 import { Card } from 'react-bootstrap';
 import Event1Img from '../../utils/images/past-event1-img.jpeg';
-import Event2Img from '../../utils/images/past-event2-img.jpeg';
+
 
 const events = [
     {
@@ -13,15 +13,18 @@ const events = [
         title: 'Learning Based Intelligent Imaging and Beyond',
         description: 'An enthralling discourse on Learning Based Intelligent Imaging and Beyond by Dr. Srutarshi Banerjee, Postdoctoral Researcher at Argonne National Laboratory.'
     },
-    {
-        id: 2,
-        img: [Event2Img],
-        title: 'Electronics in the age of Data Science',
-        description: 'A reflection on the latest developments in Machine Learning and AI along with advancement in Computing by Professor Ajoy Kumar Ray, Padma Shree, Former Director of IIEST.'
-    },
+    // {
+    //     id: 2,
+    //     img: [Event2Img],
+    //     title: 'Semiconductors: A Brief History',
+    //     description: 'A reflection on the past and the development of semiconductors by Professor S. Ashok, Pennsylvania State University on the occasion of Golden Jubilee Celebration of our Department.'
+    // },
 ];
 
 function Home() {
+    useEffect(()=>{
+        document.title="Home | IIEST ETC DEPT";
+    },[]);
   return (
     <Suspense fallback={<div>Loading...</div>}>
         <div className='home-page'>
@@ -30,7 +33,7 @@ function Home() {
                     <h2>Welcome To</h2>
                     <br></br>
                     <br></br>
-                    <h1 className='text-center fw-semibold'>Department of Electronics and Telecommunication</h1>
+                    <h1 className='text-center fw-semibold spldesign'>Department of Electronics and Telecommunication</h1>
                     <p className='text-center w-75 mb-5'>Aspire to become one of the Leading Departments of this Country with International Repute in the broad domain of Electrical Sciences and Technology through the development of Professional Attitude, Analytical and Innovative Mindsets, and Operational Expertise in the field of Electronics and Tele-Communication Engineering.</p>
                     <div className='d-flex flex-column flex-sm-row align-items-center'>
                         <Link to="/contact">
@@ -63,7 +66,7 @@ function Home() {
                 <div className='container d-flex flex-column align-items-center'>
                     <h2 className='text-center text-capitalize mb-5'>Past Events</h2>
                     <div className='row g-4'>
-                        {events.reverse().map((event) => (
+                        {events.map((event) => (
                             <div key={event.id} className='col-md-6 col-lg-4'>
                                 <Link to="/event" className='text-decoration-none'>
                                     <Card className='h-100 shadow scale-hover-effect'>

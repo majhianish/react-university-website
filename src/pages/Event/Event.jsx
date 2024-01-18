@@ -1,4 +1,4 @@
-import React, {Suspense} from 'react';
+import React, {Suspense,useEffect} from 'react';
 import './Event.css';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
@@ -22,6 +22,9 @@ const events = [
 ];
 
 function Event() {
+    useEffect(()=>{
+        document.title="Events | IIEST ETC DEPT";
+    },[]);
   return (
     <Suspense fallback={<div>Loading...</div>}>
 
