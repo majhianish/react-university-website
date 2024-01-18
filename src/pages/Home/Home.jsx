@@ -17,8 +17,8 @@ const events = [
     {
         id: 2,
         img: [Event2Img],
-        title: 'Electronics in the age of Data Science',
-        description: 'A reflection on the latest developments in Machine Learning and AI along with advancement in Computing by Professor Ajoy Kumar Ray, Padma Shree, Former Director of IIEST.'
+        title: 'Semiconductors: A Brief History',
+        description: 'A reflection on the past and the development of semiconductors by Professor S. Ashok, Pennsylvania State University on the occasion of Golden Jubilee Celebration of our Department.'
     },
 ];
 
