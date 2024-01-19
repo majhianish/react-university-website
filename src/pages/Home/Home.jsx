@@ -49,9 +49,9 @@ function Home() {
                     <div className='row d-flex align-items-center justify-content-around'>
                         <div className='col-lg-5'>
                             <h2 className='text-capitalize'>Upcoming Event</h2>
-                            <p>Topic : Electronics in the Age of Data Science</p>
-                            <p>Time : 18th January, 4:15pm</p>
-                            <p>Speaker : Prof. Ajoy Kumar Ray, Former Director of IIEST, Shibpur</p>
+                            <p>Topic : Intership Opportunities at VECC</p>
+                            <p>Time : 20th January, 11:00am</p>
+                            <p>Speaker : Dr. Tapas Samanta, Scientific Officer, VECC</p>
                             <Link to="https://forms.gle/EJhT4YeN8iyryXTk9" target="_blank">
                                 <button type='button' className='btn btn-primary btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Register here</button>
                             </Link>
