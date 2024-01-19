@@ -52,9 +52,9 @@ function Home() {
                             <p>Topic : Intership Opportunities at VECC</p>
                             <p>Time : 20th January, 11:00am</p>
                             <p>Speaker : Dr. Tapas Samanta, Scientific Officer, VECC</p>
-                            <Link to="https://forms.gle/EJhT4YeN8iyryXTk9" target="_blank">
+                            {/* <Link to="https://forms.gle/EJhT4YeN8iyryXTk9" target="_blank">
                                 <button type='button' className='btn btn-primary btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Register here</button>
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className='col-lg-5 mt-5 mt-lg-0'>
                             <img src={UpcomingEventImg} className='img-fluid' alt="" />
