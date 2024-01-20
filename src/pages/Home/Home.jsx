@@ -17,8 +17,8 @@ const events = [
     {
         id: 2,
         img: [Event2Img],
-        title: 'Semiconductors: A Brief History',
-        description: 'A reflection on the past and the development of semiconductors by Professor S. Ashok, Pennsylvania State University on the occasion of Golden Jubilee Celebration of our Department.'
+        title: 'Electronics in the age of Data Science',
+        description: 'A reflection on the latest developments in Machine Learning and AI along with advancement in Computing by Professor Ajoy Kumar Ray, Padma Shree, Former Director of IIEST.'
     },
 ];
 
@@ -49,7 +49,7 @@ function Home() {
                     <div className='row d-flex align-items-center justify-content-around'>
                         <div className='col-lg-5'>
                             <h2 className='text-capitalize'>Upcoming Event</h2>
-                            <p>Topic : Intership Opportunities at VECC</p>
+                            <p>Topic : Intership Opportunites in VECC</p>
                             <p>Time : 20th January, 11:00am</p>
                             <p>Speaker : Dr. Tapas Samanta, Scientific Officer, VECC</p>
                             {/* <Link to="https://forms.gle/EJhT4YeN8iyryXTk9" target="_blank">
