@@ -47,8 +47,8 @@ position: relative;
 
 .top-bt {
   font-size: 2.4rem;
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   color: #1369f2;
   border-radius: 50%;
   position: fixed;

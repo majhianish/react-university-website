@@ -109,7 +109,7 @@ function App() {
                       <p>Phone Number - 033-26684561-63 (Extn.270)</p>
                     </li>
                     <li>
-                      <p>Email - hod@telecom.iiests.ac.in</p>
+                      <p>Email - iiests.asete@gmail.com</p>
                     </li>
                   </ul>
                 </div>

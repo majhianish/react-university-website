@@ -19,9 +19,10 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_wjylyjl', 'template_bdqe7i9', form.current, 'dsnkp_kZNwC_T6RTG')
+        emailjs.sendForm('service_85jmr1t', 'template_bdqe7i9', form.current, 'dsnkp_kZNwC_T6RTG')
           .then((result) => {
               notify("We have received your message !✌️")
+              form.current.reset();
           }, (error) => {
             notify("Oops !!! some error occured while sending your message 😔")
           });
