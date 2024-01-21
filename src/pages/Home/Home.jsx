@@ -34,7 +34,7 @@ function Home() {
                     <h2>Welcome To</h2>
                     <br></br>
                     <br></br>
-                    <h1 className='text-center fw-semibold spldesign'>Department of Electronics and Telecommunication</h1>
+                    <h1 className='text-center fw-semibold fs-1 spldesign'>Department of Electronics and Telecommunication</h1>
                     <p className='text-center w-75 mb-5'>Aspire to become one of the Leading Departments of this Country with International Repute in the broad domain of Electrical Sciences and Technology through the development of Professional Attitude, Analytical and Innovative Mindsets, and Operational Expertise in the field of Electronics and Tele-Communication Engineering.</p>
                     <div className='d-flex flex-column flex-sm-row align-items-center'>
                         <Link to="/contact">
