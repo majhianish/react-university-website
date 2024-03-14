@@ -13,6 +13,16 @@ header {
     background-position: center;
 }
   
+glowbtn{
+  position:relative;
+  border:none;
+  transition: 1s ease-in;
+  z-index:1;
+}
+.glowbtn:hover{
+  background:#ff96ad;
+  box-shadow:0 0 5px #ff96ad,0 0 25px #ff96ad,0 0 50px #ff96ad,0 0 200px #ff96ad;
+}
   @keyframes textShine {
     0% {
       background-position: 0% 50%;

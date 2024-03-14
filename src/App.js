@@ -7,6 +7,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Event from './pages/Event/Event';
 import Contact from './pages/Contact/Contact';
+import Vaidyutak from './pages/Vaidyutak/Vaidyutak';
 import ASETE from './utils/svg/asete.svg';
 import GoToTop from './pages/GoToTop';
 function App() {
@@ -33,6 +34,7 @@ function App() {
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
               <Nav.Link href='/event' className='text-uppercase'>Events</Nav.Link>
+              <Nav.Link href='/vaidyutak' className='text-uppercase'>Vaidyutak</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -44,6 +46,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/event' element={<Event />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/vaidyutak' element={<Vaidyutak/>} />
       </Routes>
        <GoToTop />
       <footer>

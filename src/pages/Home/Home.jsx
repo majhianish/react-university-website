@@ -1,11 +1,11 @@
 import React, {Suspense,useEffect } from 'react';
 import './Home.css';
-import { Link } from 'react-router-dom';
-import UpcomingEventImg from '../../utils/images/upcoming-event-img.jpeg';
+import {Link} from 'react-router-dom';
+import UpcomingEventImg from '../../utils/images/main poster.png';
 import { Card } from 'react-bootstrap';
 import Event1Img from '../../utils/images/past-event1-img.jpeg';
 import Event2Img from '../../utils/images/past-event2-img.jpeg';
-
+import Event3Img from '../../utils/images/upcoming-event-img.jpeg';
 
 const events = [
     {
@@ -20,12 +20,20 @@ const events = [
         title: 'Electronics in the age of Data Science',
         description: 'A reflection on the latest developments in Machine Learning and AI along with advancement in Computing by Professor Ajoy Kumar Ray, Padma Shree, Former Director of IIEST.'
     },
+    {
+        id: 3,
+        img: [Event3Img],
+        title: 'Intership Opportunites in VECC',
+        description: ''
+    },
+
 ];
 
 function Home() {
     useEffect(()=>{
         document.title="Home | IIEST ETC DEPT";
     },[]);
+      
   return (
     <Suspense fallback={<div>Loading...</div>}>
         <div className='home-page'>
@@ -40,6 +48,10 @@ function Home() {
                         <Link to="/contact">
                             <button type='button' className='btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
                         </Link>
+                        <Link to="/vaidyutak">
+                        <button className="btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0 glowbtn">Explore Vaidyutak 3.O</button>
+                        </Link>
+                        
                     </div>
                 </div>
             </header>
@@ -48,11 +60,10 @@ function Home() {
                 <div className="container">
                     <div className='row d-flex align-items-center justify-content-around'>
                         <div className='col-lg-5'>
-                            <h2 className='text-capitalize'>Upcoming Event</h2>
-                            <p>Topic : Intership Opportunites in VECC</p>
-                            <p>Time : 20th January, 11:00am</p>
-                            <p>Speaker : Dr. Tapas Samanta, Scientific Officer, VECC</p>
-                            <Link to="https://forms.gle/EJhT4YeN8iyryXTk9" target="_blank">
+                            <h1 className='text-capitalize'><b>Upcoming Event</b></h1>
+                            <p><h2>Vaidyutak 3.0<b></b></h2></p>
+                            <p><h3>Time : 15-17 th March'24</h3></p>
+                            <Link to="/vaidyutak">
                                 <button type='button' className='btn btn-primary btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Register here</button>
                             </Link>
                         </div>

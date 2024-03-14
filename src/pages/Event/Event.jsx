@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import Event1Img from '../../utils/images/past-event1-img.jpeg';
 import Event2Img from '../../utils/images/past-event2-img.jpeg';
-
+import Event3Img from '../../utils/images/upcoming-event-img.jpeg';
 const events = [
     {
         id: 1,
@@ -18,7 +18,12 @@ const events = [
         title: 'Electronics in the age of Data Science',
         description: 'A reflection on the latest developments in Machine Learning and AI along with advancement in Computing by Professor Ajoy Kumar Ray, Padma Shree, Former Director of IIEST.'
     },
-    
+    {
+        id: 3,
+        img: [Event3Img],
+        title: 'Intership Opportunites in VECC',
+        description: ''
+    },
 ];
 
 function Event() {
